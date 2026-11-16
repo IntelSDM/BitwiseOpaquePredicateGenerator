@@ -1,4 +1,5 @@
 # Bitwise Opaque Predicate Generator
+Built for LLVM 19.1 - Windows x64 <br> <br>
 
 Opaque predicates are without a doubt the most important part of code obfuscation. They allow you to make your code none deterministic by using paths to corrupt/fix up code. <br>
 Opaque predicates are why you can't just examine absolutes, as they normal path is likely heavily corrupted without them. <br>
