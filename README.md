@@ -15,6 +15,11 @@ Since we have an unlimited supply of equations unlike other implementations, we 
 <img width="1977" height="380" alt="image" src="https://github.com/user-attachments/assets/9a6b1e7c-7867-4ff4-9c0d-424a99fc1268" /> <br>
 <img width="1963" height="782" alt="image" src="https://github.com/user-attachments/assets/40a97d61-d188-4cf8-a0ad-32ee77ff8ffe" /> <br>
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
 
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
